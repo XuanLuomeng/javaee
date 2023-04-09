@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/javaee.iml" filepath="$PROJECT_DIR$/javaee.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaee01/javaee01.iml" filepath="$PROJECT_DIR$/javaee01/javaee01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaee02/javaee02.iml" filepath="$PROJECT_DIR$/javaee02/javaee02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaee03/javaee03.iml" filepath="$PROJECT_DIR$/javaee03/javaee03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaee04/javaee04.iml" filepath="$PROJECT_DIR$/javaee04/javaee04.iml" />
     </modules>
   </component>
 </project>

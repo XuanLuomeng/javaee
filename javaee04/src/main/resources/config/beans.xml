@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+    <!--
+http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans -->
+    <!-- 你的配置信息 -->
+    <context:component-scan base-package="com"></context:component-scan>
+    <!--<bean name="pen" class="com.tools.Pen"/>-->
+    <!--<bean id="staticBeanFactory" class="com.factory.StaticBeanFactory"/>
+    <bean id="dynamicBeanFactory" class="com.factory.DynamicBeanFactory"/>-->
+    <!--<bean id="pen" class="com.tools.Pen"/>
+    <bean id="student" class="com.service.impl.Student">
+        &lt;!&ndash;<property name="pen" ref="pen"/>
+        <property name="sname" value="张三"/>
+        <property name="sno" value="218888999"/>
+        <property name="age" value="19"/>
+        <property name="interests">
+            <array>
+                <value>蓝球</value>
+                <value>跑步</value>
+                <value>爬山</value>
+            </array>
+        </property>
+        <property name="course">
+            <list>
+                <value>高等数学</value>
+                <value>数据结构</value>
+                <value>计算机网络</value>
+            </list>
+        </property>
+        <property name="score">
+            <set>
+                <value>85</value>
+                <value>92</value>
+                <value>78</value>
+                <value>95</value>
+            </set>
+        </property>
+        <property name="otherInfo">
+            <map>
+                <entry key="mobile" value="1588889999"/>
+                <entry key="qq" value="457845"/>
+                <entry key="address" value="广东省广州市天河区龙洞"/>
+            </map>
+        </property>&ndash;&gt;
+        <constructor-arg>
+            <ref bean="pen"/>
+        </constructor-arg>
+        <constructor-arg>
+            <value>218888999</value>
+        </constructor-arg>
+        <constructor-arg>
+            <value>张三</value>
+        </constructor-arg>
+        <constructor-arg>
+            <value>19</value>
+        </constructor-arg>
+        <constructor-arg>
+            <array>
+                <value>蓝球</value>
+                <value>跑步</value>
+                <value>爬山</value>
+            </array>
+        </constructor-arg>
+        <constructor-arg>
+            <list>
+                <value>高等数学</value>
+                <value>数据结构</value>
+                <value>计算机网络</value>
+            </list>
+        </constructor-arg>
+        <constructor-arg>
+            <set>
+                <value>85</value>
+                <value>92</value>
+                <value>78</value>
+                <value>95</value>
+            </set>
+        </constructor-arg>
+        <constructor-arg>
+            <map>
+                <entry key="mobile" value="1588889999"/>
+                <entry key="qq" value="457845"/>
+                <entry key="address" value="广东省广州市天河区龙洞"/>
+            </map>
+        </constructor-arg>
+    </bean>-->
+</beans>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+    <!--
+http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans -->
+    <!-- 你的配置信息 -->
+    <bean id="axe" class="com.javaee.impl.StoneAxe"/>
+    <bean id="person" class="com.javaee.service.Person">
+        <property name="axe" ref="axe"/>
+    </bean>
+
+    <context:component-scan base-package="com.javaee"></context:component-scan>
+</beans>
