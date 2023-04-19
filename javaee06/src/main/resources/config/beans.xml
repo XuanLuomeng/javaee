@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-4.3.xsd
+    http://www.springframework.org/schema/aop
+    http://www.springframework.org/schema/aop/spring-aop-4.3.xsd">
+<!--<bean id="axe" class="com.ex.tools.impl.SteelAxe"/>
+    <bean id="toolUpkeep" class="com.ex.aspect.ToolUpkeep"/>
+    <aop:config>
+        <aop:pointcut id="pointCut" expression="execution(* com.ex.tools.impl.SteelAxe.*(..))"/>
+        <aop:aspect ref="toolUpkeep">
+            <aop:before method="beforeAdviceMethod" pointcut-ref="pointCut"></aop:before>
+            <aop:after method="afterAdviceMethod" pointcut-ref="pointCut"></aop:after>
+            <aop:after-returning method="afterReturningAdviceMethod" pointcut-ref="pointCut"></aop:after-returning>
+            <aop:after-throwing method="afterThrowingAdviceMethod" pointcut-ref="pointCut"></aop:after-throwing>
+            <aop:around method="aroundAdviceMethod" pointcut-ref="pointCut"></aop:around>
+        </aop:aspect>
+    </aop:config>
+    <aop:aspectj-autoproxy proxy-target-class="true"/>-->
+    <context:component-scan base-package="com.ex.tools.impl,com.ex.aspect"/>
+    <aop:aspectj-autoproxy proxy-target-class="true"/>
+</beans>
+

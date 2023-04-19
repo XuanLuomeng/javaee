@@ -4,41 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf6f3579-984e-47b5-9777-561eb5e2f8ed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaee02/javaee02.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaee02/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaee02/src/main/java/com/javaee/impl/SteelAxe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaee02/src/main/java/com/javaee/impl/StoneAxe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaee02/src/main/java/com/javaee/service/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaee02/src/main/java/com/javaee/tools/Axe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaee02/src/main/resources/config/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaee02/src/test/java/com/javaee/context/BeanTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaee02/src/test/java/com/javaee/service/PersonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaee03/javaee03.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaee03/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaee03/src/main/java/com/tools/Arithmetic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaee03/src/main/java/com/tools/impl/ArithmeticAdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaee03/src/main/resources/config/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaee03/src/test/java/ArithmeticAddTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaee04/javaee04.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaee04/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaee04/src/main/java/com/factory/DynamicBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaee04/src/main/java/com/factory/StaticBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaee04/src/main/java/com/service/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaee04/src/main/java/com/service/impl/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaee04/src/main/java/com/tools/Pen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaee04/src/main/resources/config/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaee04/src/test/java/com/serboce/StudentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaee04/src/test/java/com/tools/PenTest.java" afterDir="false" />
+    <list default="true" id="cf6f3579-984e-47b5-9777-561eb5e2f8ed" name="Changes" comment="1.0.1">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaee05/javaee05.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaee05/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaee05/src/main/java/com/ex/aspect/ToolUpkeep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaee05/src/main/java/com/ex/proxy/AxeProxyCglib.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaee05/src/main/java/com/ex/proxy/AxeProxyJdk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaee05/src/main/java/com/ex/tools/Axe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaee05/src/main/java/com/ex/tools/impl/StealAxe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaee05/src/test/java/AxeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaee06/javaee06.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaee06/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaee06/src/main/java/com/ex/aspect/ToolUpkeep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaee06/src/main/java/com/ex/tools/Axe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaee06/src/main/java/com/ex/tools/impl/SteelAxe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaee06/src/main/resources/config/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaee06/src/test/java/AOPTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
@@ -83,65 +72,61 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Spring" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/javaee06/src/main/java/com/ex" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java\javaee\javaee06\src\main\java\com\ex" />
       <recent name="E:\java\javaee\javaee01\src\main\resources\config" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.javaee.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StudentTest.annotationTest">
-    <configuration name="BeanTest.annotationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaee02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javaee.context.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.javaee.context" />
-      <option name="MAIN_CLASS_NAME" value="com.javaee.context.BeanTest" />
-      <option name="METHOD_NAME" value="annotationTest" />
+  <component name="RunManager" selected="JUnit.AOPTest.ToolUpkeepTestTwo">
+    <configuration name="AOPTest.ToolUpkeepTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaee06" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AOPTest" />
+      <option name="METHOD_NAME" value="ToolUpkeepTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PenTest.writeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaee04" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tools.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.tools" />
-      <option name="MAIN_CLASS_NAME" value="com.tools.PenTest" />
-      <option name="METHOD_NAME" value="writeTest" />
+    <configuration name="AOPTest.ToolUpkeepTestTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaee06" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AOPTest" />
+      <option name="METHOD_NAME" value="ToolUpkeepTestTwo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaee04" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.serboce.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.serboce" />
-      <option name="MAIN_CLASS_NAME" value="com.serboce.StudentTest" />
-      <option name="METHOD_NAME" value="Test" />
+    <configuration name="AxeTest.proxyCGLIBTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaee05" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AxeTest" />
+      <option name="METHOD_NAME" value="proxyCGLIBTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AxeTest.proxyJdkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaee05" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AxeTest" />
+      <option name="METHOD_NAME" value="proxyJdkTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -163,29 +148,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest.constructorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaee04" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.serboce.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.serboce" />
-      <option name="MAIN_CLASS_NAME" value="com.serboce.StudentTest" />
-      <option name="METHOD_NAME" value="constructorTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AOPTest.ToolUpkeepTestTwo" />
+        <item itemvalue="JUnit.AOPTest.ToolUpkeepTest" />
+        <item itemvalue="JUnit.AxeTest.proxyCGLIBTest" />
+        <item itemvalue="JUnit.AxeTest.proxyJdkTest" />
         <item itemvalue="JUnit.StudentTest.annotationTest" />
-        <item itemvalue="JUnit.StudentTest.constructorTest" />
-        <item itemvalue="JUnit.StudentTest.Test" />
-        <item itemvalue="JUnit.PenTest.writeTest" />
-        <item itemvalue="JUnit.BeanTest.annotationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +167,17 @@
       <option name="presentableId" value="Default" />
       <updated>1680679070469</updated>
       <workItem from="1680679071647" duration="13536000" />
+      <workItem from="1681051239450" duration="25000" />
+      <workItem from="1681873580501" duration="7951000" />
     </task>
+    <task id="LOCAL-00001" summary="1.0.1">
+      <created>1681051254608</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681051254608</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,5 +193,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0.1" />
   </component>
 </project>
