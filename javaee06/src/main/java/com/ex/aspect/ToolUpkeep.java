@@ -28,10 +28,10 @@ public class ToolUpkeep {
 
     //返回通知（后置通知）
     @AfterReturning("pointCut()")
+
     public void afterReturningAdviceMethod() {
         System.out.println("收拾柴火回家");
     }
-
     //异常通知
     @AfterThrowing("pointCut()")
     public void afterThrowingAdviceMethod() {
