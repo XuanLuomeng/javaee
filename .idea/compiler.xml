@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="javaee09" />
         <module name="javaee08" />
         <module name="javaee07" />
         <module name="javaee06" />
@@ -25,6 +26,7 @@
       <module name="javaee06" target="1.8" />
       <module name="javaee07" target="1.8" />
       <module name="javaee08" target="1.8" />
+      <module name="javaee09" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
