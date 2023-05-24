@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/javaee08" />
     <file type="web" url="file://$PROJECT_DIR$/javaee09" />
+    <file type="web" url="file://$PROJECT_DIR$/javaee10" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -16,6 +17,7 @@
         <option value="$PROJECT_DIR$/javaee07/pom.xml" />
         <option value="$PROJECT_DIR$/javaee08/pom.xml" />
         <option value="$PROJECT_DIR$/javaee09/pom.xml" />
+        <option value="$PROJECT_DIR$/javaee10/pom.xml" />
       </list>
     </option>
   </component>

@@ -1,0 +1,122 @@
+package com.po;
+
+/**
+ * @author LuoXuanwei
+ * @date 2023/5/25 0:33
+ */
+public class Course {
+    private int cno;
+    private String cname;
+    private int period;
+    private Book book;
+
+    public int getCno() {
+        return cno;
+    }
+
+    public void setCno(int cno) {
+        this.cno = cno;
+    }
+
+    public String getCname() {
+        return cname;
+    }
+
+    public void setCname(String cname) {
+        this.cname = cname;
+    }
+
+    public int getPeriod() {
+        return period;
+    }
+
+    public void setPeriod(int period) {
+        this.period = period;
+    }
+
+    public Book getBook() {
+        return book;
+    }
+
+    public void setBook(Book book) {
+        this.book = book;
+    }
+
+    @Override
+    public String toString() {
+        return "Course{" +
+                "cno=" + cno +
+                ", cname='" + cname + '\'' +
+                ", period=" + period +
+                ", book=" + book +
+                '}';
+    }
+    //    private int cno;
+//    private String cname;
+//    private int period;
+//    private String bname;
+//    private String pub;
+//    private float price;
+//    // 省略了Getter和Setter方法
+//
+//    public int getCno() {
+//        return cno;
+//    }
+//
+//    public void setCno(int cno) {
+//        this.cno = cno;
+//    }
+//
+//    public String getCname() {
+//        return cname;
+//    }
+//
+//    public void setCname(String cname) {
+//        this.cname = cname;
+//    }
+//
+//    public int getPeriod() {
+//        return period;
+//    }
+//
+//    public void setPeriod(int period) {
+//        this.period = period;
+//    }
+//
+//    public String getBname() {
+//        return bname;
+//    }
+//
+//    public void setBname(String bname) {
+//        this.bname = bname;
+//    }
+//
+//    public String getPub() {
+//        return pub;
+//    }
+//
+//    public void setPub(String pub) {
+//        this.pub = pub;
+//    }
+//
+//    public float getPrice() {
+//        return price;
+//    }
+//
+//    public void setPrice(float price) {
+//        this.price = price;
+//    }
+//
+//    @Override
+//    public String toString() {
+//        return "Course{" +
+//                "cno=" + cno +
+//                ", cname='" + cname + '\'' +
+//                ", period=" + period +
+//                ", bname='" + bname + '\'' +
+//                ", pub='" + pub + '\'' +
+//                ", price=" + price +
+//                '}';
+//    }
+}
+

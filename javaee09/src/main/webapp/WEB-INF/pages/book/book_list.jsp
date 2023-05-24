@@ -14,7 +14,8 @@
 
 </head>
 <body>
-<table align="center" width="500" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse" bordercolor="#0099FF">
+<table align="center" width="500" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse"
+       bordercolor="#0099FF">
     <tr id="table-title">
         <td>书名</td>
         <td>出版社</td>
@@ -47,20 +48,17 @@
 
 <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 <script type="text/javascript">
-    $("#btn-add-book").click(function(){
+    $("#btn-add-book").click(function () {
         var bname = $("#bname").val(),
             pub = $("#pub").val(),
             price = $("#price").val();
 
-        $.post("add_book",{"bname":bname,"pub":pub,"price":price},
-            function(data){
-                if (data == "OK"){
-                    var newBook = "<tr><td>" + bname + "</td><td>" + pub + "</td><td>" + price + "</td></tr>";
-                    $("#table-title").after(newBook);
-                }
+        $.post("add_book", {"bname": bname, "pub": pub, "price": price},
+            function () {
+                var newBook = "<tr><td>" + bname + "</td><td>" + pub + "</td><td>" + price + "</td></tr>";
+                $("#table-title").after(newBook);
             })
     })
 </script>
 </body>
 </html>
-
