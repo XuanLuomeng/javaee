@@ -13,6 +13,8 @@
       <module fileurl="file://$PROJECT_DIR$/javaee08/javaee08.iml" filepath="$PROJECT_DIR$/javaee08/javaee08.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaee09/javaee09.iml" filepath="$PROJECT_DIR$/javaee09/javaee09.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaee10/javaee10.iml" filepath="$PROJECT_DIR$/javaee10/javaee10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaee11/javaee11.iml" filepath="$PROJECT_DIR$/javaee11/javaee11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaee12/javaee12.iml" filepath="$PROJECT_DIR$/javaee12/javaee12.iml" />
     </modules>
   </component>
 </project>

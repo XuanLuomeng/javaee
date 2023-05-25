@@ -4,6 +4,8 @@
     <file type="web" url="file://$PROJECT_DIR$/javaee08" />
     <file type="web" url="file://$PROJECT_DIR$/javaee09" />
     <file type="web" url="file://$PROJECT_DIR$/javaee10" />
+    <file type="web" url="file://$PROJECT_DIR$/javaee11" />
+    <file type="web" url="file://$PROJECT_DIR$/javaee12" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -18,6 +20,8 @@
         <option value="$PROJECT_DIR$/javaee08/pom.xml" />
         <option value="$PROJECT_DIR$/javaee09/pom.xml" />
         <option value="$PROJECT_DIR$/javaee10/pom.xml" />
+        <option value="$PROJECT_DIR$/javaee11/pom.xml" />
+        <option value="$PROJECT_DIR$/javaee12/pom.xml" />
       </list>
     </option>
   </component>
