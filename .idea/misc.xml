@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/gms" />
     <file type="web" url="file://$PROJECT_DIR$/javaee08" />
     <file type="web" url="file://$PROJECT_DIR$/javaee09" />
     <file type="web" url="file://$PROJECT_DIR$/javaee10" />
@@ -22,6 +23,7 @@
         <option value="$PROJECT_DIR$/javaee10/pom.xml" />
         <option value="$PROJECT_DIR$/javaee11/pom.xml" />
         <option value="$PROJECT_DIR$/javaee12/pom.xml" />
+        <option value="$PROJECT_DIR$/gms/pom.xml" />
       </list>
     </option>
   </component>

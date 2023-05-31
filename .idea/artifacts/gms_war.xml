@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="gms:war">
+    <output-path>$PROJECT_DIR$/gms/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>gms</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="gms-1.0.0.war">
+      <element id="artifact" artifact-name="gms:war exploded" />
+    </root>
+  </artifact>
+</component>
